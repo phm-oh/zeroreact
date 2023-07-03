@@ -32,4 +32,5 @@ export async function getProfileFX(){
 export function logout () {
     localStorage.removeItem('token');
     localStorage.removeItem('userdata');
+    
 }

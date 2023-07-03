@@ -1,0 +1,41 @@
+.navigation-menu {
+    background-color: #f2f2f2;
+    padding: 15px;
+  }
+  
+  .menu-list {
+    justify-content:space-between ;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+
+  .right-menu {
+    display: flex;
+  }
+  
+  .menu-item {
+    margin-right: 15px;
+  }
+  
+  .menu-item a {
+    text-decoration: none;
+    color: #ED8936;
+  }
+  
+  .logout-button {
+    
+    background-color: #ED8936;
+    color: #fff;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 12px;
+  }
+  
+  .logout-button:hover {
+    background-color: #ED64A6;
+  }
+  
